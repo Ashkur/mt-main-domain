@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <h1>This is the Main Domain application</h1>
 
-      <Link href="/sub-domain">
+      <Link href="/message?text=Hello World">
         <a>Go to sub-domain</a>
       </Link>
     </div>
